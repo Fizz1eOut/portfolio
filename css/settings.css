@@ -1,0 +1,111 @@
+/* ------------- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #0D0336;
+}
+
+/* container */
+[class*="__container"]{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 991.98px) {
+    [class*="__container"] {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 500.98px) {
+ 
+}
+
+/* title */
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  /* background: linear-gradient(to right, #3B90A3, #000aff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+}  
+
+.title-text {
+  background: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  /* border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%); */
+} 
+
+/* button */
+.button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  padding: 18px 40px;
+  background: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 10px 2px rgba(20, 42, 234, 0.25);
+}
