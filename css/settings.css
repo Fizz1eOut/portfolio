@@ -44,8 +44,40 @@ body {
     letter-spacing: 0.1em;
     color: #fff;
     font-family: 'IBM Plex Mono', monospace;
-    background-color: #0D0336;
+    background-color: #080336;
 }
+
+/* смена темы */
+html.light, .light body {
+    font-size: 18px;
+    font-family: sans-serif;
+    background: #efeded;
+    color: #131b7e;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.themetoggle span{
+    font-size: 26px;
+    color: #fff;
+}
+.light .get-started__name {
+    color: #131b7e;
+}
+.light .header__icon svg path{
+    fill: #131b7e;
+}
+.light .change-lang{
+    color: #131b7e;
+}
+.light .change-lang:focus {
+    background-color: #fff;
+}
+.light .themetoggle span {
+    color: #131b7e;
+}
+.light .nav__link {
+    color: #131b7e;
+}
+
 
 /* container */
 [class*="__container"]{
