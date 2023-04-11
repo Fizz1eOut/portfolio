@@ -52,30 +52,47 @@ html.light, .light body {
     font-size: 18px;
     font-family: sans-serif;
     background: #efeded;
-    color: #131b7e;
+    color: #023d97;
     font-family: 'IBM Plex Mono', monospace;
 }
 .themetoggle span{
     font-size: 26px;
     color: #fff;
+    display: block;
+    width: 26px;
+    height: 26px;
 }
 .light .get-started__name {
-    color: #131b7e;
+    color: #023d97;
 }
 .light .header__icon svg path{
-    fill: #131b7e;
+    fill: #023d97;
 }
 .light .change-lang{
-    color: #131b7e;
+    color: #023d97;
 }
 .light .change-lang:focus {
     background-color: #fff;
 }
 .light .themetoggle span {
-    color: #131b7e;
+    color: #023d97;
 }
 .light .nav__link {
-    color: #131b7e;
+    color: #023d97;
+}
+@media (max-width: 768.98px) {
+    .light .burger::before {
+        background-color: #023d97;
+    }
+    .light .burger::after {
+        background-color: #023d97;
+    }
+    .light .burger__line {
+        background-color: #023d97;
+    }
+    .light .nav {
+        background-color: #efeded;
+    }
 }
 
 
