@@ -57,7 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 840px;
+    padding: 160px 0 310px;
     text-align: center;
 }
 .get-started__container {
@@ -257,7 +257,7 @@
 
 /* about */
 .about {
-    height: 830px;
+    padding: 160px 0 310px;
 }
 .about__container {
 }
@@ -318,10 +318,10 @@
 }
 /* skills */
 .skills {
-    height: 700px;
+    height: 830px;
 }
 
 .projects {
-    height: 700px;
+    height: 830px;
 }
 
