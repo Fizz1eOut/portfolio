@@ -57,7 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 160px 0; 
+    height: 840px;
     text-align: center;
 }
 .get-started__container {
@@ -233,9 +233,7 @@
 }
 }
 @media (max-width: 768.98px) {
-    .get-started {
-        padding: 120px 0;
-    }
+    
     .get-started__name {
         font-size: 38px;
     }
@@ -243,11 +241,7 @@
         padding-top: 10px;
     }
 }
-@media (max-width: 425.98px) {
-    .get-started {
-        padding: 70px 0;
-    }
-
+@media (max-width: 499.98px) {
     .nav {
         width: 100%;
         max-width: 100%;
@@ -263,7 +257,7 @@
 
 /* about */
 .about {
-    padding: 160px 0;
+    height: 830px;
 }
 .about__container {
 }
@@ -307,9 +301,6 @@
     line-height: 21px;
 }
 @media (max-width: 768.98px) {
-    .about {
-        padding: 120px 0;
-    }
     .about__body {
         row-gap: 40px;
         padding-top: 60px;
@@ -323,9 +314,7 @@
     }
 }
 @media (max-width: 499.98px) {
-    .about {
-        padding: 70px 0;
-    }
+
 }
 /* skills */
 .skills {
