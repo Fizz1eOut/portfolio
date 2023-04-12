@@ -55,12 +55,24 @@ html.light, .light body {
     color: #023d97;
     font-family: 'IBM Plex Mono', monospace;
 }
-.themetoggle span{
+/* .themetoggle span{
     font-size: 26px;
     color: #fff;
     display: block;
     width: 26px;
     height: 26px;
+} */
+.themetoggle {
+    display: flex;
+    width: 26px;
+    height: 26px;
+    background-image:  url(../img/header/day.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.light .themetoggle {
+    background-image: url(../img/header/night.png);
 }
 .light .get-started__name {
     color: #023d97;
@@ -132,7 +144,7 @@ html.light, .light body {
 }  
 
 .title-text {
-  background: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%);
+    background: linear-gradient(93.07deg, #2f8cc3 0%, rgb(77 137 247 / 76%) 62.78%, rgb(0 11 253 / 50%) 128.24%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -150,7 +162,7 @@ html.light, .light body {
   line-height: 23px;
   color: #fff;
   padding: 18px 40px;
-  background: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%);
+  background: linear-gradient(93.07deg, #2f8cc3 0%, rgb(77 137 247 / 76%) 62.78%, rgb(0 11 253 / 50%) 128.24%);
   border-radius: 8px;
   transition: box-shadow 0.3s ease-in-out;
 }
