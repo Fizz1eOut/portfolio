@@ -81,6 +81,9 @@ html.light, .light body {
 .light .nav__link {
     color: #023d97;
 }
+.light .item-about__icon svg path {
+    fill: #023d97;
+}
 @media (max-width: 768.98px) {
     .light .burger::before {
         background-color: #023d97;
@@ -127,6 +130,7 @@ html.light, .light body {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
+  text-align: center;
   /* background: linear-gradient(to right, #3B90A3, #000aff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; */
@@ -150,7 +154,7 @@ html.light, .light body {
   font-size: 18px;
   line-height: 23px;
   color: #fff;
-  padding: 18px 40px;
+  padding: 18px 60px;
   background: linear-gradient(93.07deg, #2f8cc3 0%, rgb(77 137 247 / 76%) 62.78%, rgb(0 11 253 / 50%) 128.24%);
   border-radius: 8px;
   transition: box-shadow 0.3s ease-in-out;

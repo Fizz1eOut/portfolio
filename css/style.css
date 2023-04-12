@@ -57,7 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 120px;
+    padding: 160px 0; 
     text-align: center;
 }
 .get-started__container {
@@ -233,6 +233,9 @@
 }
 }
 @media (max-width: 768.98px) {
+    .get-started {
+        padding: 120px 0;
+    }
     .get-started__name {
         font-size: 38px;
     }
@@ -241,6 +244,10 @@
     }
 }
 @media (max-width: 425.98px) {
+    .get-started {
+        padding: 70px 0;
+    }
+
     .nav {
         width: 100%;
         max-width: 100%;
@@ -254,10 +261,73 @@
     }
 }
 
+/* about */
 .about {
-    height: 700px;
+    padding: 160px 0;
 }
-
+.about__container {
+}
+.about__title {
+}
+.about__body {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.about__image {
+    flex: 0 1 50%;
+}
+.about__image img {
+    max-width: 100%;
+}
+.about__content {
+    flex: 0 1 50%;
+}
+.about__text {
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.about__item {
+}
+.item-about {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.item-about__icon {
+}
+.item-about__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+@media (max-width: 768.98px) {
+    .about {
+        padding: 120px 0;
+    }
+    .about__body {
+        row-gap: 40px;
+        padding-top: 60px;
+        flex-direction: column;
+    }
+    .about__text {
+        margin-bottom: 30px;
+    }
+    .about__button {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 499.98px) {
+    .about {
+        padding: 70px 0;
+    }
+}
+/* skills */
 .skills {
     height: 700px;
 }
@@ -265,3 +335,4 @@
 .projects {
     height: 700px;
 }
+
