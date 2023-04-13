@@ -261,6 +261,7 @@
 
 /* about */
 .about {
+    padding-bottom: 120px;
 }
 .about__container {
 }
@@ -316,15 +317,119 @@
         margin-top: 10px;
     }
 }
-@media (max-width: 499.98px) {
 
-}
 /* skills */
 .skills {
-    height: 830px;
+}
+.skills__container {
+}
+.skills__title {
+
+}
+.skills__body {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.skills__image {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.skills__image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.skills__name {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+.skills__name--html {
+    color: #E65027;
+}
+.skills__name--css {
+    color: #1572B6;
+}
+.skills__name--js {
+    color: #E5A228;
+}
+.skills__name--bs {
+    color: #563D7C;
+}
+@media (max-width: 767.98px) {
+    .skills__body {
+        padding-top: 60px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 499.98px) {
+    .skills__body {
+        justify-content: center;
+        column-gap: 40px;
+    } 
 }
 
-.projects {
-    height: 830px;
+/* tools */
+.tools {
+    margin-top: 80px;
+}
+.tools__container {
+}
+.tools__title {
+}
+.tools__body {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.tools__image {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.tools__image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.git-hub__image--dark {
+    display: none;
+}
+.tools__name {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+.tools__name--figma {
+    color: #FF7262;
+}
+.tools__name--git-gh {
+   
+}
+.tools__name-git--vscode {
+    color: #40ABF2;
+}
+.tools__name--git {
+    color: #F05133;
 }
 
+@media (max-width: 767.98px) {
+    .tools__body {
+        padding-top: 60px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 499.98px) {
+    .tools__body {
+        justify-content: center;
+        column-gap: 40px;
+    } 
+}

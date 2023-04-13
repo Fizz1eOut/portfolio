@@ -59,4 +59,14 @@ const langArr = {
         "en": "Contacts",
         "ua": "Контакти",
     },
+    "skills-title": {
+        "ru": "Мои навыки",
+        "en": "My skills",
+        "ua": "Мої навички",
+    },
+    "tools-title": {
+        "ru": "Мои инструменты",
+        "en": "Tools I use",
+        "ua": "Мої інструменти",
+    },
 }

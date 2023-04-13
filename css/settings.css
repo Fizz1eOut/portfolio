@@ -84,6 +84,15 @@ html.light, .light body {
 .light .item-about__icon svg path {
     fill: #023d97;
 }
+.light .git-hub__image {
+    display: none;
+}
+.light .git-hub__image--dark {
+    display: block;
+}
+.light .tools__name--git-gh {
+    color: #000;
+}
 @media (max-width: 768.98px) {
     .light .burger::before {
         background-color: #023d97;
@@ -127,7 +136,7 @@ html.light, .light body {
 /* title */
 .title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 39px;
   line-height: 52px;
   color: #fff;
   text-align: center;
