@@ -69,4 +69,9 @@ const langArr = {
         "en": "Tools I use",
         "ua": "Мої інструменти",
     },
+    "modal-title": {
+        "ru": "Мои контакты",
+        "en": "My contacts",
+        "ua": "Мої контакти",
+    },
 }
