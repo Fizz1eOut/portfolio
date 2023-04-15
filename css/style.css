@@ -661,6 +661,7 @@
   @media (max-width: 499.98px) {
     .btn-top {
         right: 10px;
+        bottom: 20px;
     }
   }
 
