@@ -45,6 +45,8 @@ body {
     color: #fff;
     font-family: 'IBM Plex Mono', monospace;
     background-color: #080336;
+
+    overflow-x: hidden;
 }
 
 /* смена темы */
