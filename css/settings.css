@@ -102,6 +102,18 @@ html.light, .light body {
 .light .modal__name {
     color: #023d97;
 }
+.light .projects__name {
+    color: #023d97;
+}
+.light .projects__type {
+    color: #023d97;
+}
+.light .slash {
+    color: #023d97;
+}
+.light .footer__copyright {
+    color: #000;
+}
 @media (max-width: 768.98px) {
     .light .burger::before {
         background-color: #023d97;

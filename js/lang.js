@@ -74,4 +74,69 @@ const langArr = {
         "en": "My contacts",
         "ua": "Мої контакти",
     },
+    "projects-title": {
+        "ru": "Проекты",
+        "en": "Projects",
+        "ua": "Проекти",
+    },
+    "projects-info": {
+        "ru": "Информационный сайт",
+        "en": "Information web-site",
+        "ua": "Інформаційний веб-сайт",
+    },
+    "projects-store": {
+        "ru": "Сайт интернет-магазина",
+        "en": "Online store web-site",
+        "ua": "Сайт інтернет-магазина",
+    },
+    "projects-store2": {
+        "ru": "Сайт интернет-магазина",
+        "en": "Online store web-site",
+        "ua": "Сайт інтернет-магазина",
+    },
+    "projects-landing": {
+        "ru": "Целевая страница веб-сайта",
+        "en": "Landing page web-site",
+        "ua": "Посадкова сторінка веб-сайту",
+    },
+    "projects-building": {
+        "ru": "Сайт строительной компании",
+        "en": "Building company web-site",
+        "ua": "Сайт будівельної компанії",
+    },
+    "projects-open": {
+        "ru": "Открыть веб-сайт",
+        "en": "Open web-site",
+        "ua": "Відкрити веб-сайт",
+    },
+    "projects-open2": {
+        "ru": "Открыть веб-сайт",
+        "en": "Open web-site",
+        "ua": "Відкрити веб-сайт",
+    },
+    "projects-open3": {
+        "ru": "Открыть веб-сайт",
+        "en": "Open web-site",
+        "ua": "Відкрити веб-сайт",
+    },
+    "projects-open4": {
+        "ru": "Открыть веб-сайт",
+        "en": "Open web-site",
+        "ua": "Відкрити веб-сайт",
+    },
+    "projects-open5": {
+        "ru": "Открыть веб-сайт",
+        "en": "Open web-site",
+        "ua": "Відкрити веб-сайт",
+    },
+    "projects-show": {
+        "ru": "Показать больше",
+        "en": "Show more",
+        "ua": "Показати більше",
+    },
+    "footer-copyright": {
+        "ru": "Все права защищены | 2023",
+        "en": "All rights reserved | 2023",
+        "ua": "Всі права захищено | 2023 рік",
+    },
 }
