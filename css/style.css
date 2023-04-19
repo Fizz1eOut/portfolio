@@ -81,6 +81,7 @@
     line-height: 32px;
     letter-spacing: 0.305em;
     text-transform: uppercase;
+    margin: 0 auto;
 }
 .lng-profession {
     background: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%);
@@ -98,11 +99,41 @@
     text-transform: uppercase;
     color: #fff;
 }
+#sent1,#sent2 {
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+}
+#sent1 {
+   animation: sentence1 2s steps(40,end) 0.5s 1 normal forwards;
+}
+#sent2 {
+   animation: sentence2 2s steps(60,end) 2s 1 normal forwards;
+}
+@keyframes sentence1 {
+   0% {width: 0; opacity: 0;}
+   1% {opacity: 1;}
+   100% {width: 100%; opacity: 1;}
+}
+
+@keyframes sentence2 {
+   0% {width: 0; opacity: 0;}
+   1% {opacity: 1;}
+   100% {width: 100%; opacity: 1;}
+}
 .get-started__arrow--bottom {
     padding-top: 140px;
     padding-bottom: 120px;
 }
 
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
 .nav {
     padding-top: 40px;
     position: relative;

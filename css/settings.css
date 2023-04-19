@@ -65,7 +65,9 @@ html.light, .light body {
 
 .light .get-started__name {
     color: #023d97;
+    border-right: 1px solid #efeded;
 }
+
 .light .header__icon svg path{
     fill: #023d97;
 }
