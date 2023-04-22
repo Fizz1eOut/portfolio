@@ -116,6 +116,10 @@ html.light, .light body {
 .light .footer__copyright {
     color: #000;
 }
+.light .why-me__text {
+    color: #023d97;
+}
+
 @media (max-width: 768.98px) {
     .light .burger::before {
         background-color: #023d97;

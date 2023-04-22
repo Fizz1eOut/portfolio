@@ -1,8 +1,8 @@
 const langArr = {
     "profession" :  {
-        "ru": "веб-разработчик",
-        "en": "web-developer",
-        "ua": "веб-розробник",
+        "ru": "Frontend-разработчик",
+        "en": "Frontend-developer",
+        "ua": "Frontend-розробник",
     }, 
     "name": {
         "ru": "Стешин Андрей",
@@ -49,11 +49,6 @@ const langArr = {
         "en": "I do not violate deadlines",
         "ua": "Не порушую дедлайнів",
     }, 
-    "about-touch": {
-        "ru": "Всегда на связи",
-        "en": "Always in touch",
-        "ua": "Завжди на зв'язку",
-    },
     "about-button": {
         "ru": "Контакты",
         "en": "Contacts",
@@ -139,4 +134,30 @@ const langArr = {
         "en": "All rights reserved | 2023",
         "ua": "Всі права захищено | 2023 рік",
     },
+    "title-why-me": {
+        "ru": "Почему я",
+        "en": "Why me",
+        "ua": "Чому я",
+    },
+    "why-me-adaptive": {
+        "ru": "Верстаю сайты любой сложности (от лендингов до интернет-магазинов)",
+        "en": "I create websites of any complexity (from landing pages to online stores)",
+        "ua": "Верстаю сайти будь-якої складності (від лендингів до інтернет-магазинів)",
+    },
+    "why-me-time": {
+        "ru": "Работаю быстро и выполняю работу строго в указанные сроки",
+        "en": "I work quickly and complete the work strictly within the specified time",
+        "ua": "Працюю швидко та виконую роботу строго у вказані терміни",
+    },
+    "why-me-reliable": {
+        "ru": "Делаю сайты надежными, адаптивными и кроссбраузерными",
+        "en": "I make websites reliable, adaptive and cross-browser",
+        "ua": "Роблю сайти надійними, адаптивними та кросбраузерними",
+    },
+    "why-me-touch": {
+        "ru": "Всегда на связи",
+        "en": "Always in touch",
+        "ua": "Завжди на зв'язку",
+    },
+
 }
