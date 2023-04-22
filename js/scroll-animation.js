@@ -1,19 +1,24 @@
-const box = document.querySelectorAll('.box');
+const animeTitle = (element) => {
+	const arrayText = element.innerHTML.split("");
+	element.innerHTML = "";
+	arrayText.forEach((letter, indice) => {
+		setTimeout(() => (element.innerHTML += letter), 135 * indice);
+	});
+	element.classList.add("animate__shakeY");
+};
 
-window.addEventListener('scroll', checkBoxes);
+// const h1 = document.querySelector(".title-text");
 
-checkBoxes();
+// animeTitle(h1);
 
-function checkBoxes() {
-  const triggerBottom = window.innerHeight / 5 * 4;
-  
-  box.forEach(box => {
-    const boxTop = box.getBoundingClientRect().top;
-    
-    if(boxTop < triggerBottom) {
-      box.classList.add('show');
-    } else {
-      box.classList.remove('show');
-    }
-  })
-}
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		entry.isIntersecting
+			? entry.target.classList.add("show")
+			: entry.target.classList.remove("show");
+	});
+});
+
+const hiddenElements = document.querySelectorAll("div.hidden");
+
+hiddenElements.forEach((el) => observer.observe(el));
