@@ -1,8 +1,8 @@
 const langArr = {
     "profession" :  {
-        "ru": "Frontend-разработчик",
-        "en": "Frontend-developer",
-        "ua": "Frontend-розробник",
+        "ru": "Frontend разработчик",
+        "en": "Frontend developer",
+        "ua": "Frontend розробник",
     }, 
     "name": {
         "ru": "Стешин Андрей",
@@ -89,10 +89,10 @@ const langArr = {
         "en": "Online store web-site",
         "ua": "Сайт інтернет-магазина",
     },
-    "projects-landing": {
-        "ru": "Целевая страница веб-сайта",
-        "en": "Landing page web-site",
-        "ua": "Посадкова сторінка веб-сайту",
+    "projects-turbota": {
+        "ru": "Сайт интернет-магазина",
+        "en": "Online store web-site",
+        "ua": "Сайт інтернет-магазина",
     },
     "projects-building": {
         "ru": "Сайт строительной компании",

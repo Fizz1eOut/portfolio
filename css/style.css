@@ -134,6 +134,7 @@
       width: 100%;
     }
   }
+  
 .nav {
     padding-top: 40px;
     position: relative;
@@ -148,12 +149,15 @@
     background: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%);
     transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
+
 .nav__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nav__item {
+
 }
 .nav__link {
     font-weight: 400;
@@ -171,6 +175,7 @@
   text-fill-color: transparent;
 }
 
+/* burger */
 .burger {
     position: relative;
     width: 30px;
