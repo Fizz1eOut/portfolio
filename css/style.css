@@ -149,7 +149,6 @@
     background: linear-gradient(93.07deg, #3B90A3 0%, rgba(51, 126, 214, 0.755208) 62.78%, rgba(28, 35, 191, 0.5) 128.24%);
     transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
-
 .nav__list {
     display: flex;
     align-items: center;
