@@ -1,4 +1,3 @@
-
 const select = document.querySelector('select');
 const allLang = ['en', 'ru', 'ua'];
 
@@ -12,12 +11,9 @@ function changeURLLanguage() {
 }
 
 function changeLanguage() {
-    let hash = window.location.hash;
-    hash = hash.substr(1);
-    console.log(hash);
+    const hash = window.location.hash.slice(1);
     if (!allLang.includes(hash)) {
         location.href = window.location.pathname + '#en';
-        location.reload();
     }
     select.value = hash;
     // document.querySelector('title').innerHTML = langArr['unit'][hash];
