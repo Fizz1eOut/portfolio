@@ -30,9 +30,9 @@ const langArr = {
         "ua": "Про мене",
     }, 
     "about-text": {
-        "ru": "Здравствуйте, меня зовут Андрей, я занимаюсь разработкой сайтов. Занимаюсь версткой, адаптацией и интеграцией. Свою работу я выполняю с учетом современных требований и с использованием лучших технологий.",
-        "en": "Hello, my name is Andrey, I am developing websites. I am engaged in layout, adaptation and integration. I carry out my work taking into account modern requirements and using the best technologies.",
-        "ua": "Привіт, мене звати Андрій, займаюся розробкою сайтів. Займаюся версткою, адаптацією та інтеграцією. Свою роботу виконую з урахуванням сучасних вимог та використовуючи найкращі технології.",
+        "ru": "Здравствуйте, меня зовут Андрей, я занимаюсь разработкой сайтов. Занимаюсь версткой, адаптацией и интеграцией. Я выполняю свою работу с учетом современных требований и с использованием лучших технологий. Я полностью отдаюсь каждому проекту, гарантируя быстрое и качественное выполнение. Со мной легко работать и мне важно, чтобы клиент остался доволен.",
+        "en": "Hello, my name is Andrey, I am developing websites. I am engaged in layout, adaptation and integration. I carry out my work taking into account modern requirements and using the best technologies. I am fully committed to each project, guaranteeing fast and high-quality execution. I am easy to work with and it is important to me that the client is satisfied.",
+        "ua": "Здрастуйте, мене звуть Андрій, я займаюся розробкою сайтів. Займаюся версткою, адаптацією та інтеграцією. Я виконую свою роботу з урахуванням сучасних вимог та з використанням кращих технологій. Я повністю віддаюся кожному проекту, гарантуючи швидке та якісне виконання. Зі мною легко працювати і мені важливо, щоб клієнт залишився задоволеним.",
     },
     "about-ready": {
         "ru": "Готов начать прямо сейчас",

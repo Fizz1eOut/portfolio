@@ -15,9 +15,6 @@ function changeLanguage() {
 
     select.value = lang;
     window.location.hash = `#${lang}`;
-    // document.querySelector('title').innerHTML = langArr['unit'][hash];
-    // document.querySelector('.lng-chip').innerHTML = langArr['chip'][hash];
-
     for (let key in langArr) {
         document.querySelectorAll(`.lng-${key}`).forEach((element) => {
             element.innerHTML = langArr[key][lang];

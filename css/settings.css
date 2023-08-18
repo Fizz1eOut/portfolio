@@ -36,6 +36,7 @@ h6 {
 html,
 body {
     height: 100%;
+    transition: 0.7s ease-in-out;
 }
 body {
     font-weight: 400;
@@ -44,16 +45,17 @@ body {
     letter-spacing: 0.1em;
     color: #fff;
     font-family: 'IBM Plex Mono', monospace;
-    background-color: #030020;
+    background-color: #212121;
 }
 
 /* смена темы */
 html.light, .light body {
     font-size: 18px;
     font-family: sans-serif;
-    background: #efeded;
-    color: #023d97;
+    background: #F2F2F2;
+    color: #444;
     font-family: 'IBM Plex Mono', monospace;
+    transition: 0.7s ease-in-out;
 }
 .themetoggle span{
     font-size: 26px;
@@ -64,27 +66,27 @@ html.light, .light body {
 } 
 
 .light .get-started__name {
-    color: #023d97;
-    border-right: 1px solid #efeded;
+    color: #444;
+    border-right: 1px solid #F2F2F2;
 }
 
 .light .header__icon svg path{
-    fill: #023d97;
+    fill: #444;
 }
 .light .change-lang{
-    color: #023d97;
+    color: #444;
 }
 .light .change-lang:focus {
     background-color: #fff;
 }
 .light .themetoggle span {
-    color: #023d97;
+    color: #444;
 }
 .light .nav__link {
-    color: #023d97;
+    color: #444;
 }
 .light .item-about__icon svg path {
-    fill: #023d97;
+    fill: #444;
 }
 .light .git-hub__image {
     display: none;
@@ -102,36 +104,43 @@ html.light, .light body {
     fill: #023d97;
 }
 .light .modal__name {
-    color: #023d97;
+    color: #444;
 }
 .light .projects__name {
-    color: #023d97;
+    color: #444;
 }
 .light .projects__type {
-    color: #023d97;
+    color: #444;
 }
 .light .slash {
     color: #023d97;
 }
 .light .footer__copyright {
-    color: #000;
+    color: #818181;
 }
 .light .why-me__text {
-    color: #023d97;
+    color: #444;
+}
+.light .projects__content {
+    border: 2px solid #D0D0D0;
+    background-color: #FFF;
+}
+.light .projects__item:hover {
+    box-shadow: 0px 0px 25px 5px rgba(48, 52, 130, 0.25);
 }
 
 @media (max-width: 768.98px) {
     .light .burger::before {
-        background-color: #023d97;
+        background-color: #444;
     }
     .light .burger::after {
-        background-color: #023d97;
+        background-color: #444;
     }
     .light .burger__line {
-        background-color: #023d97;
+        background-color: #444;
     }
     .light .nav {
-        background-color: #efeded;
+        background-color: #F2F2F2;
     }
 }
 
@@ -197,5 +206,12 @@ html.light, .light body {
 }
 .button:hover {
   cursor: pointer;
-  box-shadow: 6px 6px 10px 2px rgba(20, 42, 234, 0.25);
+  box-shadow: 0px 0px 15px 5px rgba(29, 47, 218, 0.25);
+}
+.light .button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 3px rgba(28, 37, 200, 0.30);
+}
+.light .projects__item:hover .button {
+    box-shadow: 0px 0px 9px 3px rgba(28, 37, 200, 0.30);
 }
