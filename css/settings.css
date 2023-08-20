@@ -44,17 +44,16 @@ body {
     line-height: 23px;
     letter-spacing: 0.1em;
     color: #fff;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: #212121;
 }
-
 /* смена темы */
 html.light, .light body {
     font-size: 18px;
     font-family: sans-serif;
     background: #F2F2F2;
     color: #444;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Nunito Sans', sans-serif;
     transition: 0.7s ease-in-out;
 }
 .themetoggle span{
@@ -128,7 +127,37 @@ html.light, .light body {
 .light .projects__item:hover {
     box-shadow: 0px 0px 25px 5px rgba(48, 52, 130, 0.25);
 }
-
+.light .lng-profession {
+    background: linear-gradient(134deg, #3B90A3 0%, rgba(66, 148, 176, 0.97) 6.56%, rgba(58, 120, 194, 0.76) 48.96%, rgba(51, 56, 181, 0.91) 100%, #434AF6 100%);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.light .title-text {
+    background: linear-gradient(134deg, #3B90A3 0%, rgba(66, 148, 176, 0.97) 6.56%, rgba(58, 120, 194, 0.76) 48.96%, rgba(51, 56, 181, 0.91) 100%, #434AF6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+} 
+.light .button {
+    background: linear-gradient(134deg, #3B90A3 0%, rgba(66, 148, 176, 0.97) 6.56%, rgba(58, 120, 194, 0.76) 48.96%, rgba(51, 56, 181, 0.91) 100%, #434AF6 100%);
+}
+.light .nav__link:hover {
+    background: linear-gradient(134deg, #3B90A3 0%, rgba(66, 148, 176, 0.97) 6.56%, rgba(58, 120, 194, 0.76) 48.96%, rgba(51, 56, 181, 0.91) 100%, #434AF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.light .link-hover:after {
+    display:block;
+    content: '';
+    border-bottom: 2px solid #72a8cb;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
 @media (max-width: 768.98px) {
     .light .burger::before {
         background-color: #444;
@@ -182,7 +211,7 @@ html.light, .light body {
 }  
 
 .title-text {
-    background: linear-gradient(93.07deg, #2f8cc3 0%, rgb(77 137 247 / 76%) 62.78%, rgb(0 11 253 / 50%) 128.24%);
+    background: linear-gradient(123deg, #4AC5C5 0%, #39A6F6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -200,7 +229,7 @@ html.light, .light body {
   line-height: 23px;
   color: #fff;
   padding: 18px 60px;
-  background: linear-gradient(93.07deg, #2f8cc3 0%, rgb(77 137 247 / 76%) 62.78%, rgb(0 11 253 / 50%) 128.24%);
+  background: linear-gradient(123deg, #4AC5C5 0%, #39A6F6 100%);
   border-radius: 8px;
   transition: box-shadow 0.3s ease-in-out;
 }
