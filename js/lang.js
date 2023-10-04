@@ -159,5 +159,9 @@ const langArr = {
         "en": "Always in touch",
         "ua": "Завжди на зв'язку",
     },
-
+    "projects-tracker": {
+        "ru": "Трекер списка дел",
+        "en": "Todo list tracker",
+        "ua": "Трекер списку справ",
+    },
 }
