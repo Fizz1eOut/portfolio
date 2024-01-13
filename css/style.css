@@ -2,8 +2,6 @@
 .header {
     padding: 30px 0;
 }
-.header__container {
-}
 .header__items {
     display: flex;
     align-items: center;
@@ -26,8 +24,6 @@
 .header__icon  {
     width: 26px;
     height: 26px;
-}
-.header__translation {
 }
 
 /* смена языка */
@@ -60,12 +56,6 @@
     padding-top: 120px;
     padding-bottom: 160px;
     text-align: center;
-}
-.get-started__container {
-}
-.get-started__body {
-}
-.get-started__content {
 }
 .get-started__image img {
     object-fit: cover;
@@ -152,9 +142,6 @@
     justify-content: space-between;
 }
 
-.nav__item {
-
-}
 .nav__link {
     font-weight: 400;
     font-size: 18px;
@@ -309,10 +296,6 @@
 .about {
     padding-bottom: 120px;
 }
-.about__container {
-}
-.about__title {
-}
 .about__body {
     padding-top: 80px;
     display: flex;
@@ -336,15 +319,12 @@
     font-weight: 400;
     line-height: 146%
 }
-.about__item {
-}
+
 .item-about {
     padding-bottom: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
-}
-.item-about__icon {
 }
 .item-about__text {
     font-weight: 400;
@@ -375,8 +355,6 @@
 .why-me__content:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
-.why-me__image {
 }
 .why-me__text {
     padding-top: 20px;
@@ -467,9 +445,6 @@
     text-align: center;
 }
 
-.modal__items {
-    
-}
 .modal__title {
     font-weight: 700;
     font-size: 30px;
@@ -509,13 +484,6 @@
     }
 }
 /* skills */
-.skills {
-}
-.skills__container {
-}
-.skills__title {
-
-}
 .skills__body {
     padding-top: 80px;
     display: flex;
@@ -572,10 +540,6 @@
     margin-top: 80px;
     padding-bottom: 120px;
 }
-.tools__container {
-}
-.tools__title {
-}
 .tools__body {
     padding-top: 80px;
     display: flex;
@@ -605,9 +569,6 @@
 .tools__name--figma {
     color: #FF7262;
 }
-.tools__name--git-gh {
-   
-}
 .tools__name-git--vscode {
     color: #40ABF2;
 }
@@ -629,10 +590,6 @@
 }
 
 /* projects */
-.projects {
-}
-.projects__container {
-}
 .projects__body {
     padding-top: 80px;
     display: flex;
@@ -698,6 +655,9 @@
 }
 .skills-projects__text--js {
     color: #E5A228;
+}
+.skills-projects__text--vue {
+    color: #41B883;
 }
 .slash {
     color: #fff;

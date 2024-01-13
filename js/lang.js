@@ -164,4 +164,9 @@ const langArr = {
         "en": "Todo list tracker",
         "ua": "Трекер списку справ",
     },
+    "projects__name--dobro": {
+        "ru": "Медицинский центр Добро",
+        "en": "Medical center",
+        "ua": "Медичний центр Добро",
+    },
 }
